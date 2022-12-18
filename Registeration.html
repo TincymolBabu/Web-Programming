@@ -1,0 +1,176 @@
+<html>
+<head>
+<title>Registration form</title>
+</head>
+<body>
+<center><h3>Student Registration Form</h3>
+<form name="studregform" method="get">
+<table border ="2" cellpadding="10">
+<tr><td>First Name</td>
+<td><input type="text" name="firstname" maxlength="30">(max 30 character)</td></tr>
+<tr><td>Last Name</td>
+<td><input type="text" name="lastname" maxlength="30">(max 30 character)</td></tr>
+<tr><td>Date of birth</td>
+<td><select>
+<option>Day</option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+<option>10</option>
+<option>11</option>
+<option>12</option>
+<option>13</option>
+<option>14</option>
+<option>15</option>
+<option>16</option>
+<option>17</option>
+<option>18</option>
+<option>19</option>
+<option>20</option>
+<option>21</option>
+<option>22</option>
+<option>23</option>
+<option>24</option>
+<option>25</option>
+<option>26</option>
+<option>27</option>
+<option>28</option>
+<option>29</option>
+<option>30</option>
+<option>31</option>
+</select>
+<select>
+<option>Month</option>
+<option>Jan</option>
+<option>Feb</option>
+<option>March</option>
+<option>April</option>
+<option>May</option>
+<option>June</option>
+<option>July</option>
+<option>August</option>
+<option>September</option>
+<option>October</option>
+<option>November</option>
+<option>December</option>
+</select>
+<select>
+<option>Year</option>
+<option>1995</option>
+<option>1996</option>
+<option>1997</option>
+<option>1998</option>
+<option>1999</option>
+<option>2000</option>
+<option>2001</option>
+<option>2002</option>
+<option>2003</option>
+<option>2004</option>
+<option>2005</option>
+</select>
+</td>
+</tr>
+<tr><td>EMAIL ID</td>
+<td><input type="email" name="email"></td></tr>
+<tr><td>MOBILE NUMBER</td>
+<td><input type="text" name="mobile number" pattern="[7-9]{1}[0-9]{9}" min length="10" max length="10">(10 digit number)</td>
+</tr>
+<tr>
+<td> GENDER</td>
+<td>Male<input type="radio"name="gender"value="male">Female<input type="radio" name="gender" value="female">
+</td></tr>
+<tr><td>Address</td>
+<td><textarea rows="5" cols="40"></textarea>
+</td>
+</tr>
+<tr><td>CITY</td>
+<td><input type="text" name="city" maxlength="30">(max 30 characters)</td></tr>
+<tr><td>PIN CODE</td>
+<td><input type="number" name="pincode" maxlength="6" minlength="6">(6 digit number)
+</td></tr>
+<tr><td>STATE</td>
+<td><input type="text" name="state" maxlength="30">(max 30 characters)</td></tr>
+<tr><td>COUNTRY</td>
+<td><input type="text" name="country" value="india"></td></tr>
+<tr><td>HOBBIES</td>
+<td>DRAWING<input type="checkbox" name="CHECKBOX" name="drawing" value="on">
+SINGING<input type="checkbox" name="CHECKBOX" name="Singing" value="on">
+DANCING<input type="checkbox" name="CHECKBOX" name="dancing" value="on">
+SKETCHING<input type="checkbox" name="CHECKBOX" name="sketching" value="on">
+<br>others <input type="checkbox" name="CHECKBOX" name="others" value="on">
+<input type="text" name="hobbies">
+</td></tr>
+<tr rowspan="5"><td>QUALIFICATION</td>
+<td>
+<table>
+<tr>
+<th>sl.no</th>
+<th>examination</th>
+<th>board</th>
+<th>percentage</th>
+<th>year of passing</th>
+</tr>
+<tr>
+<td>1</td>
+<td>class x</th>
+<td><input type="text" name="board"></td>
+
+<td><input type="number" name="percentage"></td>
+
+<td><input type="number" name="year"></td>
+</tr>
+<tr>
+<td>2</td>
+<td>class XII</th>
+<td><input type="text" name="board"></td>
+
+<td><input type="text" name="percentage"></td>
+
+<td><input type="text" name="year"></td>
+</tr>
+<tr>
+<td>4</td>
+<td>MASTERS</th>
+<td><input type="text" name="board"></td>
+
+<td><input type="number" name="percentage"></td>
+
+<td><input type="number" name="board"></td>
+
+</tr>
+<tr>
+<td></td>
+<td></th>
+<td>(10 char max)</td>
+<td>(upto 2 decimal)</td>
+<td></td>
+</tr
+</table>
+<tr><td>COURSES APPLIED FOR</td>
+<td>MCA<input type="radio" name="course"value="MCA">
+MTECH<input type="radio" name="course"value="MTECH">
+MSC<input type="radio" name="course"value="MSC">
+PHD<input type="radio" name="course"value="PHD"> 
+<td></tr>
+<tr><td>TYPE YOUR PASSWORD</td>
+<td><input type="password" name="pwd"(max 30 characters)</td>
+</tr>
+
+<tr><td>UPLOAD YOUR PHOTO:</td>
+<td><inut type="file"></td></tr>
+<tr><td>Date of tc</td>
+<td><input type="date" name="date"></td></tr>
+<tr><td colspan="2"><center/><input type="submit" name="submit" value="submit">
+<input type="reset" name="rest value="reset">
+</td>
+</tr>
+</center>
+</body>
+</html>
+
